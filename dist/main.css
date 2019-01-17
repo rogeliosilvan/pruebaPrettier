@@ -1,6 +1,7 @@
 body {
   font: verdana, sans-serif;
   background-color: blue; }
-  body h1, body h2 {
+  body h1,
+  body h2 {
     color: #b68d4c; }
 
