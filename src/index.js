@@ -1,5 +1,6 @@
-import "./style/main.scss";
+import './style/main.scss'
+const arr = [1, 2, 3]
+const iAmJavascriptES6 = () => arrconst
+//Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
-const arr = [1, 2, 3];
-const iAmJavascriptES6 = () => arr;
-console.log(iAmJavascriptES6);
+console.log(iAmJavascriptES6)

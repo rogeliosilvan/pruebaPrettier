@@ -1,7 +1,53 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility; }
+
+html,
+body {
+  height: 100%; }
+
 body {
   font: verdana, sans-serif;
-  background-color: blue; }
+  font-size: 2rem;
+  background-color: #f0e8da; }
   body h1,
   body h2 {
-    color: #b68d4c; }
+    color: #b68d4c;
+    text-align: center; }
+
+.text {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
+
+svg {
+  width: 100%;
+  height: inherit; }
+  svg text {
+    text-anchor: middle; }
+  svg #alpha {
+    fill: #666666; }
+  svg #title {
+    letter-spacing: -2px;
+    font-size: 6em;
+    font-weight: 800; }
+  svg #subtitle {
+    letter-spacing: 8px;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase; }
+  svg #base {
+    fill: black;
+    mask: url(#mask); }
+
+section.intro {
+  background: url(/../../img/fiestaNavidadRushmore2018.jpg) no-repeat top center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100%; }
 
